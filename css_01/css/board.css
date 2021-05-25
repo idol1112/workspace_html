@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "맑은고딕", 돋움;
+    font-size: 12px;
+}
+
+/* 게시판 외곽 */
+#board {
+    width: 700px;
+    margin: auto;
+}
+
+/*************** 게시판 공통 ***************/
+/* 폼 그룹 */
+.form-group {
+    padding: 5px 5px 5px 5px;
+}
+
+/* 폼 텍스트 */
+.form-group .form-text {
+    width: 80px;
+    display: inline-block;
+}
+
+/*****************************************/
+
+/* 게시판 선택 */
+#sel-board {
+    width: 150px;
+}
+
+/* 제목 */
+#txt-title {
+    width: 598px;
+}
+
+/* 비밀번호 */
+#txt-pw {
+    width: 200px;
+}
+
+/* 공개범위 , 허용범위*/
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px 20px 0px 0px;
+}
+
+/* 내용 */
+#txt-content {
+    width: 685px;
+    height: 300px;
+}
+
+/* 버튼 */
+.btn-area {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    border-top: 1px solid #f4f4f4;
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #acacac;
+}

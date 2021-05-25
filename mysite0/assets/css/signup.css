@@ -1,0 +1,52 @@
+@charset "UTF-8";
+#main-body {
+    width: 800px;
+}
+#main-body .group {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #ededed;
+}
+
+#main-body .group .lbl-group {
+    width: 80px;
+    display: inline-block;
+}
+
+#main-body input[id="uaddr2"] {
+    display: block;
+    margin: 5px 0px 0px 84px;
+    width: 400px;
+}
+
+#main-body input[type="radio"], #main-body input[type="checkbox"] {
+    margin: 0px 20px 0px 0px;
+}
+
+#main-body .txt-area {
+    width: 500px;
+    height: 150px;
+    display: block;
+    margin: -15px 0px 0px 84px;
+}
+
+#main-body .btn-group {text-align: center;}
+
+#main-body .btn-group button {
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #acacac;
+}
+#main-body .no-line {
+    border-bottom: none;
+}
+
+#main-body fieldset {
+    width: 600px;
+    text-align: center;
+}
+
+#main-body legend {
+    font-size: 15px;
+    margin: 0px 0px 20px 0px;
+}

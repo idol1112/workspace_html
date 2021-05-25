@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Form과제</title>
+        <style>
+            body {
+                position: relative;
+                background: #f5f6f7;
+                margin: 0;
+                padding: 0;
+            }
+            #wrap {
+                width: 100%;
+            }
+            div {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="wrap">
+            <form action="#" method="get">
+                    <label for="uid">아이디</label>
+                    <input type="text" id="uid" name="userid" value="" placeholder="아이디를 입력하세요" title="아이디를 입력">
+                    <br>
+                    <label for="upw">패스워드</label>
+                    <input type="password" id="upw" name="userpw" value="" placeholder="패스워드를 입력하세요" title="패스워드를 입력">
+                    <br>
+                    <label for="uname">이름</label>
+                    <input type="text" id="uname" name="uname" value="" placeholder="이름을 입력하세요" title="이름을 입력">
+                    <br>
+                    <laber for="uimg">프로필사진</laber>
+                    <input type="file" id="uimg" name="file" value="">
+                    <br>
+                    <label for="uaddr1">주소</label>
+                    <input type="text" id="uaddr1" name="uaddr1" value="" placeholder="우편번호를 입력하세요" title="우편번호를 입력">
+                    <button>우편번호찾기</button>
+                    <br>
+                    <input type="text" id="uaddr2" name="uaddr2" value="" placeholder="주소를 입력하세요" title="주소를 입력">
+                    <br>
+                    <label for="utel">이동통신사</label>
+                    <select name="utel">
+                        <option value="">선택해주세요</option>
+                        <option value="sk">SKT</option>
+                        <option value="kt">KTF</option>
+                        <option value="lg">LG</option>
+                        <option value="et" selected="selected">기타</option>
+                    </select>
+                    <br>
+                    <label for="uage">나이</label>
+                    <label for="age_10">10대</label>
+                    <input type="radio" id="uage_10" name="uage" value="10">
+                    <label for="age_20">20대</label>
+                    <input type="radio" id="uage_20" name="uage" value="20">
+                    <label for="age_30">30대</label>
+                    <input type="radio" id="uage_30" name="uage" value="30">
+                    <label for="age_40">40대</label>
+                    <input type="radio" id="uage_40" name="uage" value="40">
+                    <label for="age_00">기타</label>
+                    <input type="radio" id="uage_00" name="uage" value="00">
+                    <br>
+                    <label for="uhbby">취미</label>
+                    <label for="hbby_1">독서</label>
+                    <input type="checkbox" id="hbby_1" name="uhbby" value="book">
+                    <label for="hbby_2">음악</label>
+                    <input type="checkbox" id="hbby_2" name="uhbby" value="music">
+                    <label for="hbby_3">여행</label>
+                    <input type="checkbox" id="hbby_3" name="uhbby" value="trip">
+                    <label for="hbby_4">영화</label>
+                    <input type="checkbox" id="hbby_4" name="uhbby" value="movie">
+                    <label for="hbby_5">코딩</label>
+                    <input type="checkbox" id="hbby_5" name="uhbby" value="coding">
+                    <label for="hbby_6">기타</label>
+                    <input type="checkbox" id="hbby_6" name="uhbby" value="">
+                    <br>
+                    <label for="uintro">자기소개</label>
+                    <textarea id=uintro name="uintro" value="" placeholder="5줄 이상 작성해주세요" title="자기소개 입력"></textarea>
+                    <br>
+                    <button type="submit">로그인</button> <button type="reset">초기화</button>
+            </form>
+        </div>
+    </body>
+</html>

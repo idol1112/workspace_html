@@ -1,0 +1,18 @@
+@charset "UTF-8";
+table{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+td {
+    border: 1px solid #000000;
+}
+th {
+    border: 1px solid #000000;
+    background-color: gray;
+}
+h3 {color: darkblue;}
+.bg_red {
+    background-color: #ff0000;
+    font-size: 30px;
+    color: #ffffff;
+}
